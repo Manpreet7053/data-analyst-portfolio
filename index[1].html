@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Entry-level Data Analyst skilled in SQL, Python and Power BI. Case studies: DHEIS (602 districts) and a bank loan analytics system (38,576 records).">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Manpreet Kaur">
+<meta property="og:title" content="Manpreet Kaur | Data Analyst Portfolio">
+<meta property="og:description" content="Entry-level Data Analyst skilled in SQL, Python and Power BI. Case studies: DHEIS (602 districts) and a bank loan analytics system (38,576 records).">
+<meta property="og:url" content="https://manpreet7053.github.io/">
+<meta property="og:image" content="https://manpreet7053.github.io/images/preview.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%93%8A%3C/text%3E%3C/svg%3E">
+<title>Manpreet Kaur | Data Analyst</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f5f6f2;--surface:#fff;--ink:#17252a;--muted:#55656b;--line:#d9ddd5;--teal:#0e6b66;--gold:#c98a0b;--tint:#e4efec;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121b1d;--surface:#192427;--ink:#eaf0ee;--muted:#9fb0b3;--line:#2b3a3d;--teal:#4fc3b8;--gold:#e5b04a;--tint:#1d3335}}
+:root[data-theme="dark"]{--bg:#121b1d;--surface:#192427;--ink:#eaf0ee;--muted:#9fb0b3;--line:#2b3a3d;--teal:#4fc3b8;--gold:#e5b04a;--tint:#1d3335}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 "Public Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Public Sans",sans-serif;line-height:1.15;margin:0}
+a{color:var(--teal)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:16px;flex-wrap:wrap}
+nav b{font-family:"Bricolage Grotesque",sans-serif;font-size:19px}
+nav div{display:flex;gap:20px;font-size:15px}
+nav a{color:var(--ink);text-decoration:none}
+nav a:hover{color:var(--teal)}
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:center;padding:56px 0 72px}
+.hero h1{font-size:clamp(44px,7vw,76px);font-weight:800;letter-spacing:-.02em}
+.role{font-size:20px;color:var(--teal);font-weight:600;margin:14px 0 18px}
+.hero p{max-width:52ch;color:var(--muted);margin:0 0 26px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 20px;border-radius:8px;font-weight:600;text-decoration:none;border:1.5px solid var(--teal);font-size:15px}
+.btn.p{background:var(--teal);color:var(--bg)}
+.btn.s{color:var(--teal)}
+.story{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:26px}
+.story h3{font-size:18px;margin-bottom:4px}
+.story small{color:var(--muted);display:block;margin-bottom:18px;font-size:14px}
+.bars{display:flex;gap:28px;align-items:flex-end;height:170px;border-bottom:2px solid var(--line)}
+.bar{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;font-weight:700;font-family:"Bricolage Grotesque",sans-serif;font-size:22px}
+.bar i{display:block;width:100%;border-radius:6px 6px 0 0;margin-top:6px}
+.bar.a i{height:88%;background:var(--line)}
+.bar.b i{height:96%;background:var(--teal)}
+.lbls{display:flex;gap:28px;font-size:14px;color:var(--muted);padding-top:8px;text-align:center}
+.lbls span{flex:1}
+.story p{font-size:15px;margin:16px 0 0;color:var(--ink)}
+section{padding:64px 0;border-top:1px solid var(--line)}
+section h2{font-size:clamp(28px,4vw,38px);margin-bottom:28px}
+.about{display:grid;grid-template-columns:1.4fr 1fr;gap:40px}
+.about p{margin:0 0 14px;max-width:62ch}
+.facts{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.facts li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:15px}
+.facts b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:20px;color:var(--teal)}
+.proj{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:30px;margin-bottom:24px}
+.proj.main{border-left:6px solid var(--gold)}
+.proj h3{font-size:26px;margin-bottom:6px}
+.sub{color:var(--muted);margin:0 0 16px;font-size:15px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px;padding:0;list-style:none}
+.tags li{background:var(--tint);color:var(--teal);padding:3px 12px;border-radius:99px;font-size:14px;font-weight:500}
+.proj ul.pts{margin:0 0 20px;padding-left:20px}
+.proj ul.pts li{margin-bottom:8px;max-width:75ch}
+.nums{display:flex;gap:30px;flex-wrap:wrap;margin:0 0 20px}
+.nums div{font-size:14px;color:var(--muted)}
+.nums b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:30px;color:var(--ink)}
+.links{display:flex;gap:18px;flex-wrap:wrap;font-weight:600;font-size:15px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.skills h3{font-size:17px;margin-bottom:10px}
+.skills .tags{margin:0}
+.tl{border-left:2px solid var(--line);padding-left:26px;display:grid;gap:34px}
+.tl article{position:relative}
+.tl article:before{content:"";position:absolute;left:-34px;top:8px;width:14px;height:14px;border-radius:50%;background:var(--gold);border:3px solid var(--bg)}
+.tl h3{font-size:21px}
+.tl .when{color:var(--muted);font-size:14px;margin:2px 0 10px}
+.tl ul{margin:0;padding-left:20px}
+.tl li{margin-bottom:6px;max-width:75ch}
+.more{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.more div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px;font-size:15px}
+.more b{display:block;margin-bottom:4px;font-family:"Bricolage Grotesque",sans-serif;font-size:17px}
+.contact p{max-width:55ch;color:var(--muted);margin:0 0 22px}
+footer{padding:30px 0 40px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+@media (max-width:780px){.hero,.about{grid-template-columns:1fr}.hero{padding:30px 0 48px;gap:32px}.proj{padding:22px}nav div{gap:14px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.sm{padding:8px 16px;font-size:14px;cursor:pointer;font-family:inherit;background:none}
+button.btn{cursor:pointer;font-family:inherit;background:none;color:var(--teal)}
+button.btn.p{background:var(--teal);color:var(--bg)}
+.tl .sm{margin-top:12px}
+body.lock{overflow:hidden}
+.ov{position:fixed;inset:0;background:var(--bg);overflow:auto;z-index:50;padding:calc(env(safe-area-inset-top,0px) + 14px) 0 40px}
+.ov[hidden]{display:none}
+.pn{max-width:860px;margin:0 auto;padding:0 22px}
+.x{position:sticky;top:0;float:right;z-index:2;cursor:pointer;font:600 15px "Public Sans",sans-serif;padding:9px 18px;border-radius:8px;border:1.5px solid var(--teal);background:var(--surface);color:var(--teal)}
+.pn img{width:100%;height:auto;border-radius:8px;border:1px solid var(--line);display:block}
+.cs h2{font-size:clamp(28px,5vw,42px);margin:44px 0 10px}
+.cs h3{font-size:22px;margin:34px 0 10px}
+.cs p,.cs li{max-width:68ch}
+.cs li{margin-bottom:7px}
+.cs figure{margin:22px 0}
+.cs figcaption{font-size:14px;color:var(--muted);margin-top:8px}
+.cs .lead{font-size:19px;color:var(--muted)}
+.certs{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.certs button{all:unset;cursor:pointer;display:block;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.certs button:focus-visible{outline:3px solid var(--gold)}
+.certs img{width:100%;aspect-ratio:1.45;object-fit:cover;object-position:top;display:block;border-bottom:1px solid var(--line)}
+.certs span{display:block;padding:12px 14px;font-size:15px}
+.certs b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:16px}
+.certs small{color:var(--muted)}
+.hero{grid-template-columns:1fr}
+.stats{display:flex;flex-wrap:wrap;gap:14px 40px;margin-top:40px;padding-top:26px;border-top:1px solid var(--line)}
+.stats div{font-size:14px;color:var(--muted)}
+.stats b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:30px;color:var(--ink)}
+.eyebrow{font:600 13px "Public Sans",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);margin-bottom:14px}
+.cta{display:grid;grid-template-columns:1.5fr 1fr;gap:36px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:clamp(26px,5vw,52px)}
+.cta h2{font-size:clamp(32px,5vw,52px);margin-bottom:16px}
+.cta em{color:var(--teal)}
+.cta p{color:var(--muted);max-width:44ch;margin:0 0 24px}
+.cl{list-style:none;margin:0;padding:0;display:grid;gap:18px}
+.cl a{text-decoration:none;font-size:18px;font-weight:500;word-break:break-word}
+.cl a:hover{text-decoration:underline}
+.cl i{font-style:normal}
+#toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:8px;font-size:15px;z-index:99;opacity:0;pointer-events:none;transition:opacity .2s}
+#toast.on{opacity:1}
+@media (max-width:780px){.cta{grid-template-columns:1fr}}
+.hero{grid-template-columns:1.2fr 1fr}
+.flow{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:28px}
+.flow h3{font-size:18px;margin-bottom:2px}
+.flow small{color:var(--muted);display:block;margin-bottom:24px;font-size:14px}
+.flow ol{list-style:none;margin:0;padding:0;position:relative;display:grid;gap:24px}
+.flow ol:before{content:"";position:absolute;left:17px;top:18px;bottom:18px;width:2px;background:var(--line)}
+.flow ol:after{content:"";position:absolute;left:12px;top:12px;width:12px;height:12px;border-radius:50%;background:var(--gold);animation:run 3.5s ease-in-out infinite alternate}
+@keyframes run{to{top:calc(100% - 24px)}}
+.flow li{display:flex;gap:16px;align-items:center}
+.flow li span{flex:none;width:36px;height:36px;border-radius:50%;background:var(--tint);color:var(--teal);font:700 15px "Bricolage Grotesque",sans-serif;display:grid;place-items:center;position:relative;z-index:1}
+.flow b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:18px}
+.flow em{font-style:normal;color:var(--muted);font-size:15px}
+@media (max-width:780px){.hero{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.flow ol:after{animation:none;top:12px}}
+.pn{max-width:920px}
+.cs{counter-reset:sec}
+.csh{background:linear-gradient(135deg,var(--tint),var(--surface));border:1px solid var(--line);border-radius:20px;padding:clamp(24px,5vw,44px);margin-top:46px}
+.csh .eyebrow{margin-bottom:12px}
+.csh h2{margin:0 0 12px;font-size:clamp(28px,5vw,44px)}
+.csh .lead{margin:0 0 20px}
+.csh .tags{margin:0}
+.cs .nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:22px 0 0}
+.cs .nums div{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px}
+.cs .nums b{color:var(--teal);font-size:34px}
+.cs h3{display:flex;align-items:baseline;gap:14px;margin:52px 0 18px;font-size:26px;counter-increment:sec}
+.cs h3:before{content:counter(sec,decimal-leading-zero);font:700 14px "Public Sans",sans-serif;letter-spacing:.12em;color:var(--gold)}
+.cs h3:after{content:"";flex:1;height:1px;background:var(--line)}
+.cs .call{background:var(--tint);border-left:5px solid var(--gold);border-radius:0 12px 12px 0;padding:18px 22px;font-size:18px;max-width:none}
+.cs ul:not(.tags){list-style:none;padding:0;margin:0}
+.cs ul:not(.tags) li{position:relative;padding-left:26px;max-width:none}
+.cs ul:not(.tags) li:before{content:"";position:absolute;left:0;top:.62em;width:10px;height:10px;border-radius:3px;background:var(--gold)}
+.cs .steps{counter-reset:st;display:grid;gap:12px}
+.cs .steps li{counter-increment:st;padding:14px 18px 14px 64px;background:var(--surface);border:1px solid var(--line);border-radius:12px;margin:0}
+.cs .steps li:before{content:counter(st);left:16px;top:12px;width:32px;height:32px;border-radius:50%;background:var(--tint);color:var(--teal);font-weight:700;display:grid;place-items:center}
+.cs .found{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.cs .found li{padding:16px 18px;background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--teal);border-radius:12px;margin:0}
+.cs .found li:before{display:none}
+.cs figure{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface);box-shadow:0 10px 30px rgba(0,0,0,.12);margin:30px 0}
+.cs figure:before{content:"";display:block;height:30px;background:radial-gradient(circle,#e5604f 5px,transparent 6px) 16px 50%/18px 100% no-repeat,radial-gradient(circle,#e5b04a 5px,transparent 6px) 34px 50%/18px 100% no-repeat,radial-gradient(circle,#4fc38a 5px,transparent 6px) 52px 50%/18px 100% no-repeat,var(--tint)}
+.cs figure img{border:0;border-radius:0}
+.cs figcaption{padding:12px 18px}
+.cs .links{margin-top:44px;padding-top:26px;border-top:1px solid var(--line)}
+.cs .links a{padding:11px 22px;border:1.5px solid var(--teal);border-radius:8px;text-decoration:none}
+.cs .links a:first-child{background:var(--teal);color:var(--bg)}
+.cs .duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin:6px 0 22px}
+.cs .pg{background:var(--surface);border:1px solid var(--line);border-top:5px solid var(--gold);border-radius:14px;padding:22px}
+.cs .pg h4{font:700 22px "Bricolage Grotesque",sans-serif;margin:0 0 2px}
+.cs .pgs{color:var(--teal);font-weight:600;margin:0 0 14px;font-size:15px}
+.cs .pg li{margin-bottom:10px;font-size:16px}
+.cs .chain{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 6px}
+.cs .chain span{background:var(--tint);color:var(--teal);padding:6px 14px;border-radius:99px;font-size:14px;font-weight:600}
+.cs .chain span+span:before{content:"\2192";margin-right:10px;color:var(--gold)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Main"><b>Manpreet Kaur</b><div><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></div></nav>
+
+<header class="hero">
+<div>
+<h1>Manpreet Kaur</h1>
+<div class="role">Data Analyst: SQL, Python, Power BI</div>
+<p>I turn messy data into clear answers. I recently finished my B.Tech in Computer Science, and I have built analytics projects from raw data to dashboards, led a team of 10 interns, and I am looking for an entry-level data analyst role.</p>
+<div class="btns">
+<a class="btn p" href="#projects">See my projects</a>
+<a class="btn s" href="mailto:man26082003@gmail.com">Email me</a>
+<button class="btn s" data-resume>View resume</button>
+</div>
+</div>
+
+<aside class="flow" aria-label="How I work"><h3>How I work</h3><small>From raw data to a decision</small><ol>
+<li><span>1</span><div><b>Collect</b><em>Excel, PostgreSQL, Databricks</em></div></li>
+<li><span>2</span><div><b>Clean</b><em>SQL, Python, Pandas</em></div></li>
+<li><span>3</span><div><b>Analyse</b><em>EDA, KPIs, Logistic Regression</em></div></li>
+<li><span>4</span><div><b>Show</b><em>Power BI, DAX, Streamlit</em></div></li></ol></aside>
+</header>
+
+<section id="about">
+<h2>About me</h2>
+<div class="about">
+<div>
+<p>I enjoy the part of analytics where a pile of rough numbers starts to make sense. I like cleaning data, finding the pattern, and then explaining it in a way that someone can act on.</p>
+<p>I graduated in 2026 with a B.Tech in Computer Science Engineering from Guru Nanak Dev University, Amritsar. Alongside my degree I completed two internships, in data analytics and business analytics, and built two projects end to end.</p>
+<p>At Uptoskills I was promoted from intern to Team Lead, where I reviewed my team's Excel and Power BI work and helped unblock them. I care about being accurate and about being clear when I explain things.</p>
+</div>
+<ul class="facts">
+<li><b>8.56 / 10</b>CGPA, B.Tech CSE</li>
+<li><b>2 internships</b>Data analytics and business analytics</li>
+<li><b>10 interns</b>Led as Team Lead at Uptoskills</li>
+</ul>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<article class="proj main">
+<h3>DHEIS: District Health &amp; Education Intelligence System</h3>
+<p class="sub">An analytics platform that ranks districts by need, built independently during my internship at SURE Trust.</p>
+<div class="nums"><div><b>602</b>districts</div><div><b>95%</b>accuracy</div><div><b>96%</b>recall</div><div><b>8</b>dashboard pages</div></div>
+<ul class="pts">
+<li>Combined NFHS-5 health data and DISE education data into one dataset covering 602 districts, using PostgreSQL, Excel and Python on Databricks.</li>
+<li>Designed a percentile-normalized Priority Index and trained a Logistic Regression classifier. Recall rose from 88% to 96% after I added data-quality validation.</li>
+<li>Delivered an 8-page Power BI dashboard and a deployed Streamlit app. The app includes a district briefing feature that uses the Groq API and is limited to the evidence in the data.</li>
+</ul>
+<ul class="tags"><li>Python</li><li>SQL</li><li>Databricks</li><li>MLflow</li><li>Power BI</li><li>Streamlit</li></ul>
+<div class="links"><button class="btn p sm" data-cs="dheis">Read case study</button><a href="#" data-link="dheis-app">Live app</a><a href="#" data-link="dheis-github">GitHub</a></div>
+</article>
+
+<article class="proj main">
+<h3>Bank Loan Data Analytics System</h3>
+<p class="sub">A reporting pipeline that tracks loan performance and credit losses.</p>
+<div class="nums"><div><b>38,576</b>loan records</div><div><b>$28.2M</b>lost to charge-offs</div><div><b>56.9%</b>recovery rate</div></div>
+<ul class="pts">
+<li>Processed 38,576 loan records across 25 attributes using PostgreSQL, Python, Excel and Power BI.</li>
+<li>Wrote 25+ SQL queries for KPI, month-to-date and month-over-month analysis.</li>
+<li>Ran exploratory analysis in Pandas, Matplotlib, Seaborn and Plotly, then built 2 Excel dashboards and 3 Power BI dashboards with DAX.</li>
+<li>Found $28.2M in credit losses from charged-off loans, with a 56.9% recovery rate.</li>
+</ul>
+<ul class="tags"><li>PostgreSQL</li><li>SQL</li><li>Python</li><li>Power BI</li><li>DAX</li><li>Excel</li></ul>
+<div class="links"><button class="btn p sm" data-cs="loan">Read case study</button><a href="#" data-link="loan-github">GitHub</a></div>
+</article>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div><h3>Programming and querying</h3><ul class="tags"><li>Python</li><li>SQL</li><li>Pandas</li><li>NumPy</li></ul></div>
+<div><h3>BI and visualization</h3><ul class="tags"><li>Power BI</li><li>DAX</li><li>Excel</li><li>Pivot Tables</li><li>Slicers</li><li>Matplotlib</li><li>Seaborn</li><li>Plotly</li></ul></div>
+<div><h3>Databases and data engineering</h3><ul class="tags"><li>PostgreSQL</li><li>Supabase</li><li>Databricks</li><li>ETL pipelines</li></ul></div>
+<div><h3>Machine learning and tools</h3><ul class="tags"><li>Logistic Regression</li><li>Model evaluation</li><li>MLflow</li><li>Streamlit</li><li>Jupyter</li><li>Git and GitHub</li></ul></div>
+<div><h3>Analytics</h3><ul class="tags"><li>Data cleaning</li><li>EDA</li><li>Statistical analysis</li><li>KPI reporting</li><li>Data storytelling</li><li>Dashboards</li></ul></div>
+<div><h3>Soft skills</h3><ul class="tags"><li>Communication</li><li>Team collaboration</li><li>Presentation</li><li>Attention to detail</li><li>Time management</li></ul></div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<div class="tl">
+<article>
+<h3>Data Analytics Intern, SURE Trust (SURE ProEd)</h3>
+<div class="when">Feb 2026 to Sep 2026</div>
+<ul>
+<li>Trained in Excel, SQL, Python, Machine Learning, Power BI and Databricks, and applied them to data cleaning, EDA, dashboards and predictive modeling.</li>
+<li>Built DHEIS on my own and finished the internship with a 10/10 GPA and a completion certificate.</li>
+</ul>
+<button class="btn s sm" data-cert="sure">View certificate</button>
+</article>
+<article>
+<h3>Business Analytics Intern, then Team Lead, Uptoskills</h3>
+<div class="when">Feb 2026 to May 2026</div>
+<ul>
+<li>Did lead generation and verification, and built a Power BI dashboard on my own to analyse and visualise the collected lead data.</li>
+<li>Promoted to Team Lead. I oversaw 10 interns, reviewed their Excel and Power BI work for accuracy, resolved blockers, and coordinated tasks and reporting.</li>
+</ul>
+<button class="btn s sm" data-cert="upto">View internship certificate</button> <button class="btn s sm" data-cert="letter">View experience letter</button>
+</article>
+</div>
+</section>
+
+<section id="certificates"><h2>Certificates</h2><div class="certs"><button data-cert="sure"><img src="images/01-sure-proed-internship-certificate.jpg" alt="SURE ProEd internship certificate" loading="lazy"><span><b>SURE ProEd internship</b><small>Data Science and Data Analytics, Feb to Sep 2026</small></span></button><button data-cert="upto"><img src="images/02-uptoskills-internship-certificate.jpg" alt="Uptoskills internship certificate" loading="lazy"><span><b>Uptoskills internship</b><small>Business Analytics, Team Lead, Feb to May 2026</small></span></button><button data-cert="deloitte"><img src="images/03-deloitte-job-simulation-certificate.jpg" alt="Deloitte job simulation certificate" loading="lazy"><span><b>Deloitte job simulation</b><small>Data Analytics, via Forage, Jan 2026</small></span></button><button data-cert="powerbi"><img src="images/04-power-bi-for-business-applications-certi.jpg" alt="Power BI for Business Applications certificate" loading="lazy"><span><b>Power BI for Business Applications</b><small>Microsoft Elevate with AICTE, 20 hours, 2026</small></span></button><button data-cert="sql"><img src="images/05-30-days-sql-micro-course-certificate.jpg" alt="30-Days SQL Micro Course certificate" loading="lazy"><span><b>30-Days SQL Micro Course</b><small>Skill Course, Feb 2026</small></span></button><button data-cert="excel"><img src="images/06-microsoft-excel-self-learning-certificat.jpg" alt="Microsoft Excel (self learning) certificate" loading="lazy"><span><b>Microsoft Excel (self learning)</b><small>Skill Course, Jan 2026</small></span></button></div></section>
+<section id="more">
+<h2>Learning and activities</h2>
+<div class="more">
+<div><b>Deloitte Data Analytics Job Simulation</b>Completed through Forage, Jan 2026.</div>
+<div><b>Volunteer, SURE Trust</b>Helping with internship completion certificates and student certification, 2026 to present.</div>
+<div><b>Life Skill Training and PAWR</b>Completed 15 Professional Awareness and Workplace Readiness sessions on communication, teamwork, ethics and accountability.</div>
+<div><b>GROW, Tech Startup-Connect</b>Took part in this women entrepreneurship program at GNDU, 2023.</div>
+</div>
+</section>
+
+<section id="contact"><div class="cta"><div><div class="eyebrow">Contact</div><h2>Have a data problem<br><em>worth solving?</em></h2><p>Open to entry-level Data Analyst opportunities and analytics-focused work.</p><div class="btns"><button class="btn p" data-resume>View resume</button></div></div>
+<ul class="cl"><li><a href="mailto:man26082003@gmail.com">man26082003@gmail.com <i>&#8599;</i></a></li><li><a href="tel:+917986560255">+91 79865 60255 <i>&#8599;</i></a></li><li><a href="#" data-link="linkedin">LinkedIn <i>&#8599;</i></a></li><li><a href="#" data-link="github">GitHub <i>&#8599;</i></a></li></ul></div></section>
+<footer>© 2026 Manpreet Kaur</footer>
+</div>
+<template id="t-dheis"><div class="cs"><header class="csh"><div class="eyebrow">Case study</div><h2>DHEIS: District Health &amp; Education Intelligence System</h2><p class="lead">A system that combines India's health and education survey data to show which districts need attention first, and why.</p><ul class="tags"><li>Python</li><li>SQL</li><li>Databricks</li><li>MLflow</li><li>Power BI</li><li>Streamlit</li></ul></header>
+<div class="nums"><div><b>602</b>districts</div><div><b>14</b>indicators</div><div><b>95%</b>accuracy</div><div><b>96%</b>High-tier recall</div></div>
+<h3>The problem</h3><p class="call">Health and education departments usually review districts separately, with different reports and cycles. A district that struggles on both fronts is not picked out as its own group, even though it may need help most. I wanted one view that answers three questions: where are the priority districts, why, and what should be funded.</p>
+<h3>The data</h3><p>Health data came from NFHS-5 (2019 to 21) and education data from DISE (2015 to 16). After matching, 602 districts were left. 78 of the 680 districts in the education file were excluded because the two surveys divide some regions differently. The survey years also differ, and I kept that limitation visible.</p>
+<h3>What I did</h3><ul class="steps">
+<li>Matched district and state names between the two surveys with state-aware fuzzy matching, and checked every unclear match by hand against real district lists.</li>
+<li>Found that the original pupil-teacher field did not behave like a ratio. I recalculated it from total enrollment and total teachers.</li>
+<li>Scaled 14 indicators (8 health, 6 education) to a 0 to 100 vulnerability scale using percentile ranks. My first version used min-max scaling, which introduced a bias between the health and education sides.</li>
+<li>Averaged the health and education sub-scores into the Priority Index, then split districts into High (top 20%), Medium and Low (bottom 20%).</li>
+<li>Built the pipeline on Databricks with Python in Bronze, Silver and Gold layers, with PostgreSQL on Supabase underneath.</li>
+<li>Trained a Logistic Regression model on stratified 5-fold cross-validation and tested it once on 20% of districts held back. I left the index and sub-scores out of its inputs to avoid data leakage, and tracked experiments in MLflow.</li></ul>
+<figure><img src="images/07-the-overall-power-bi-dashboard-priority-.jpg" alt="The overall Power BI dashboard: priority distribution and key indicators" loading="lazy"><figcaption>The overall Power BI dashboard: priority distribution and key indicators</figcaption></figure>
+<h3>What I found</h3><ul class="found">
+<li>The tiers came out at 125 High, 359 Medium and 118 Low priority districts.</li>
+<li>On the held-out districts the model reached 95% accuracy and 96% recall on the High tier. A model that always guessed the most common tier scored 59.5% accuracy and 0% High-tier recall.</li>
+<li>Recall improved from 88% to 96% after data-quality validation.</li>
+<li>Across districts, health was the dominant driver in 62% and education in 38%.</li>
+<li>A check across gender-literacy-gap and SC/ST-population groups found no material accuracy gap. Those columns were used only for the check, never as model inputs.</li></ul>
+<figure><img src="images/08-district-level-view-with-the-priority-in.jpg" alt="District-level view with the Priority Index, tier and supporting indicators" loading="lazy"><figcaption>District-level view with the Priority Index, tier and supporting indicators</figcaption></figure>
+<h3>From priority to action: Action Queue and Resource Allocation</h3>
+<p class="call">A ranked list shows where the problems are, but not what to do next. I built two Power BI pages that turn a district's priority into a possible next step.</p>
+<div class="duo">
+<div class="pg"><h4>Action Queue</h4><p class="pgs">Which districts to look at first</p><ul>
+<li>Lists the high-priority districts in rank order, with their top indicator gaps and a recommended action for each.</li>
+<li>Choosing a district opens its action summary: Priority Index, Primary Concern (the biggest gap against the state benchmark), recommended action and other key gaps.</li>
+<li>Summary cards count the 125 High-priority districts across 23 states and UTs, and show how many are Critical.</li>
+<li>A "Why districts are flagged" panel explains the reasons in plain words, so users can trust the list.</li></ul></div>
+<div class="pg"><h4>Resource Allocation</h4><p class="pgs">Where support could go</p><ul>
+<li>The user sets a budget and picks a strategy: Target High Need, Balance Needs or Equity First. Every chart updates.</li>
+<li><b>Where to allocate</b> shows the recommended budget by state.</li>
+<li><b>What to fund</b> splits it across school infrastructure, health outcomes and education outcomes.</li>
+<li>A District Intervention Plan lists the top 10 high-priority districts with their main concern, a recommended intervention and a suggested allocation.</li></ul></div></div>
+<div class="chain"><span>Priority</span><span>Main driver</span><span>Indicator gap</span><span>Primary concern</span><span>Intervention</span><span>Allocation</span></div>
+<figure><img src="images/09-action-queue-page.jpg" alt="Action Queue page" loading="lazy"><figcaption>Action Queue page: ranked districts, recommended actions and a district action summary</figcaption></figure>
+<figure><img src="images/10-resource-allocation-page.jpg" alt="Resource Allocation page" loading="lazy"><figcaption>Resource Allocation page: budget and strategy controls, where to allocate, what to fund, and the district intervention plan</figcaption></figure>
+<p class="call">These pages are planning aids. The amounts change with whatever budget and strategy the user picks, and they do not decide real funding. People still make the decision.</p>
+<h3>What people can use</h3><p>An 8-page Power BI dashboard and a deployed Streamlit app. The app lets you filter and compare districts, and it includes an AI-written district brief using the Groq API, limited to the evidence in the data so it cannot invent statistics or causes.</p>
+<h3>What I learned</h3><p class="call">Check what a field means, not just its format. The pupil-teacher field looked fine until I looked at how its values behaved. I also learned how easily a model can look good through data leakage, and why AI output needs limits in a decision tool. DHEIS supports a decision. It does not allocate funding or replace human judgement.</p>
+<div class="links"><a href="#" data-link="dheis-app">Live app</a><a href="#" data-link="dheis-github">GitHub repository</a></div></div></template><template id="t-loan"><div class="cs"><header class="csh"><div class="eyebrow">Case study</div><h2>Bank Loan Data Analytics System</h2><p class="lead">My final-year B.Tech project: a pipeline from a raw Excel loan file to SQL, Python, Excel and Power BI, for tracking how a loan portfolio performs.</p><ul class="tags"><li>PostgreSQL</li><li>SQL</li><li>Python</li><li>Power BI</li><li>DAX</li><li>Excel</li></ul></header>
+<div class="nums"><div><b>38,576</b>loan records</div><div><b>25</b>attributes</div><div><b>$28.2M</b>credit loss</div><div><b>56.9%</b>recovery on bad loans</div></div>
+<h3>The problem</h3><p class="call">A lender needs to see how many loans are performing, how many are going bad, and how that changes month to month. I set out to turn one raw loan file into KPIs and dashboards that answer those questions.</p>
+<h3>The data</h3><p>38,576 loan records with 25 columns. It was fairly clean: no duplicates and no negative values. The employer title column had 1,438 blanks (3.73%), which I filled with "Not Specified". I trimmed stray spaces in the loan term, and added a Good vs Bad Loan column, where "Charged Off" counts as bad.</p>
+<h3>What I did</h3><ul class="steps">
+<li>Stored the data in PostgreSQL and wrote 25+ SQL queries for overall, month-to-date and previous-month KPIs, a loan status grid, and breakdowns by month, state, term, employment length, purpose and home ownership.</li>
+<li>Ran exploratory analysis in Python with Pandas, Matplotlib, Seaborn and Plotly, producing 8 charts.</li>
+<li>Built 2 Excel dashboards with pivot tables and slicers.</li>
+<li>Built 3 Power BI dashboards with DAX measures for month-to-date, month-over-month and good vs bad loan percentages.</li></ul>
+<figure><img src="images/11-power-bi-summary-page-kpis-good-vs-bad-l.jpg" alt="Power BI summary page: KPIs, good vs bad loans and loan status table" loading="lazy"><figcaption>Power BI summary page: KPIs, good vs bad loans and loan status table</figcaption></figure>
+<h3>What I found</h3><ul class="found">
+<li>$435.76M was funded and $473.07M received. Average interest rate was 12.05%.</li>
+<li>86.18% of loans were good (33,243) and 13.82% were bad (5,333).</li>
+<li>Bad loans were funded with $65.53M but only $37.28M came back. That is a recovery rate of 56.9% and a credit loss of about $28.2M. Good loans returned 117.7% of what was funded.</li>
+<li>Applications grew 87% from January (2,301) to December (4,314). In December, applications rose 6.9% and funding 13.0% on November.</li>
+<li>California had the most applications (6,894). Debt consolidation was the top purpose at 47.2%, and 73.2% of borrowers chose 36-month terms.</li></ul>
+<figure><img src="images/12-power-bi-overview-page-monthly-trend-sta.jpg" alt="Power BI overview page: monthly trend, state map, term, purpose and home ownership" loading="lazy"><figcaption>Power BI overview page: monthly trend, state map, term, purpose and home ownership</figcaption></figure><figure><img src="images/13-excel-overview-dashboard-built-with-pivo.jpg" alt="Excel overview dashboard built with pivot tables and slicers" loading="lazy"><figcaption>Excel overview dashboard built with pivot tables and slicers</figcaption></figure>
+<h3>What I learned and what is next</h3><p class="call">I learned to turn business questions into SQL and DAX measures that give the same answer in every tool, and to explain a number like recovery rate clearly. The project does not predict defaults. Adding a model for that is the next step I would take.</p>
+<div class="links"><a href="#" data-link="loan-github">GitHub repository</a></div></div></template><template id="t-resume"><div class="cs"><h2>Resume</h2><p><a class="btn p sm" download="Manpreet_Kaur_Resume.pdf" href="resume.pdf">Download PDF</a></p><figure><img loading="lazy" src="images/14-resume-page-1.jpg" alt="Resume page 1"></figure><figure><img loading="lazy" src="images/15-resume-page-2.jpg" alt="Resume page 2"></figure></div></template><img loading="lazy" id="img-letter" alt="" style="display:none" src="images/16-image.jpg">
+<div id="ov" class="ov" hidden role="dialog" aria-modal="true" aria-label="Details"><div class="pn"><button class="x" id="x">Close</button><div id="pc"></div></div></div><script>var LINKS={linkedin:"https://www.linkedin.com/in/manpreet-kaur-03m/",github:"https://github.com/Manpreet7053","dheis-app":"https://dheis-app.streamlit.app/","dheis-github":"https://github.com/Manpreet7053/District-Health-Education-Intelligence-System-DHEIS-","loan-github":"https://github.com/Manpreet7053/Bank-Loan-Data-Analytics-System"};
+var ov=document.getElementById("ov"),pc=document.getElementById("pc"),last=null;
+function links(r){r.querySelectorAll("[data-link]").forEach(function(a){var u=LINKS[a.getAttribute("data-link")];if(u){a.href=u;a.target="_blank";a.rel="noopener"}else a.style.display="none"})}
+links(document);
+function open(node,from){last=from;pc.innerHTML="";pc.appendChild(node);links(pc);bind(pc);ov.hidden=false;ov.scrollTop=0;document.body.classList.add("lock");document.getElementById("x").focus()}
+function close(){ov.hidden=true;document.body.classList.remove("lock");if(last)last.focus()}
+document.getElementById("x").onclick=close;
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!ov.hidden)close()});
+function bind(r){
+r.querySelectorAll("[data-cs]").forEach(function(b){b.onclick=function(){open(document.getElementById("t-"+b.dataset.cs).content.cloneNode(true),b)}});
+r.querySelectorAll("[data-cert]").forEach(function(b){b.onclick=function(){var e=document.querySelector('.certs [data-cert="'+b.dataset.cert+'"] img')||document.getElementById("img-"+b.dataset.cert),s=e.src,d=document.createElement("div");d.className="cs";d.innerHTML='<figure><img alt="Certificate"></figure>';d.querySelector("img").src=s;open(d,b)}});
+r.querySelectorAll("[data-resume]").forEach(function(b){b.onclick=function(){open(document.getElementById("t-resume").content.cloneNode(true),b)}})}
+bind(document);
+var EM="man26082003@gmail.com";
+document.querySelectorAll('a[href^="mailto:"]').forEach(function(a){a.addEventListener("click",function(e){
+e.preventDefault();var d=document.createElement("div");d.className="cs";
+d.innerHTML='<h2>Email me</h2><p class="lead" style="user-select:all">'+EM+'</p><p><button class="btn p sm" id="cp">Copy address</button> <a class="btn s sm" href="mailto:'+EM+'?subject=Hello%20Manpreet" target="_blank" rel="noopener">Open in mail app</a></p><p id="cpm" role="status" style="color:var(--muted)"></p>';
+open(d,a);
+document.getElementById("cp").onclick=function(){var m=document.getElementById("cpm");
+function ok(){m.textContent="Copied. You can paste it into any email."}
+function no(){var r=document.createRange();r.selectNodeContents(pc.querySelector(".lead"));var s=getSelection();s.removeAllRanges();s.addRange(r);m.textContent="Selected. Press Ctrl+C (or hold and copy on a phone)."}
+try{navigator.clipboard.writeText(EM).then(ok,no)}catch(x){no()}}})});
+var PH="+91 79865 60255";
+document.querySelectorAll('a[href^="tel:"]').forEach(function(a){a.addEventListener("click",function(e){
+e.preventDefault();var d=document.createElement("div");d.className="cs";
+d.innerHTML='<h2>Call me</h2><p class="lead" style="user-select:all">'+PH+'</p><p><button class="btn p sm" id="cp">Copy number</button> <a class="btn s sm" href="tel:+917986560255" target="_blank" rel="noopener">Call from this device</a></p><p id="cpm" role="status" style="color:var(--muted)"></p>';
+open(d,a);
+document.getElementById("cp").onclick=function(){var m=document.getElementById("cpm");
+function ok(){m.textContent="Copied."}
+function no(){var r=document.createRange();r.selectNodeContents(pc.querySelector(".lead"));var s=getSelection();s.removeAllRanges();s.addRange(r);m.textContent="Selected. Press Ctrl+C (or hold and copy on a phone)."}
+try{navigator.clipboard.writeText(PH).then(ok,no)}catch(x){no()}}})});
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[download]");if(!a||!window.claude)return;
+e.preventDefault();var u=a.getAttribute("href"),n=a.getAttribute("download");
+var by=Uint8Array.from(atob(u.split(",")[1]),function(c){return c.charCodeAt(0)});
+claude.use("downloads").then(function(d){if(d)return d.save({filename:n,data:new Blob([by],{type:"application/pdf"})});
+var t=document.createElement("a");t.href=u;t.download=n;document.body.appendChild(t);t.click();t.remove()}).catch(function(){})});
+</script>
+</body>
+</html>
